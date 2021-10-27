@@ -1,8 +1,7 @@
 CMakeFiles/Rendering.dir/camera.cpp.o: \
- /home/hushrush/桌面/Lab01copy/camera.cpp /usr/include/stdc-predef.h \
- /home/hushrush/桌面/Lab01copy/camera.h \
- /home/hushrush/桌面/Lab01copy/ray.h \
- /home/hushrush/桌面/Lab01copy/vec3.h /usr/include/c++/9/iostream \
+ /home/hushrush/桌面/Lab01/camera.cpp /usr/include/stdc-predef.h \
+ /home/hushrush/桌面/Lab01/camera.h /home/hushrush/桌面/Lab01/ray.h \
+ /home/hushrush/桌面/Lab01/vec3.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

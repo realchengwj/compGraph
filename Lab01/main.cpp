@@ -75,25 +75,25 @@ int main() {
       16; //光线弹射次数, 如果是一个空心玻璃球的话,弹射次数至少>4次，思考一下？
 
   //新建材质，漫反射示例
-  Material *diffuse_center = new Material(Vec3(0.5, 0.5, 0.5), Diffuse);//这里的Vec3是颜色
-  Material *diffuse_ground = new Material(Vec3(0.5, 0.5, 0.5), Diffuse);
+  // Material *diffuse_center = new Material(Vec3(0.5, 0.5, 0.5), Diffuse);//这里的Vec3是颜色
+  // Material *diffuse_ground = new Material(Vec3(0.5, 0.5, 0.5), Diffuse);
   //新建材质，金属示例
   // Material *diffuse_center = new Material(Vec3(0.7, 0.3, 0.3), Diffuse);//这里的Vec3是颜色
   // Material *diffuse_ground = new Material(Vec3(0.8, 0.8, 0.0), Diffuse);
   // Material *metal_left = new Material(Vec3(0.8,0.8,0.8), 1.0,Metal);
   // Material *metal_right = new Material(Vec3(0.8,0.6,0.2), 0.3,Metal);
-  // //新建材质，透明示例
-  // Material *diffuse_center = new Material(Vec3(0.1, 0.2, 0.5), Diffuse);//这里的Vec3是颜色
-  // Material *diffuse_ground = new Material(Vec3(0.8, 0.8, 0.0), Diffuse);
-  // Material *dielectric_left = new Material(1.5,Dielectric);
-  // Material *metal_right = new Material(Vec3(0.8,0.6,0.2), 0.0,Metal);
+  //新建材质，透明示例
+  Material *diffuse_center = new Material(Vec3(0.1, 0.2, 0.5), Diffuse);//这里的Vec3是颜色
+  Material *diffuse_ground = new Material(Vec3(0.8, 0.8, 0.0), Diffuse);
+  Material *dielectric_left = new Material(1.5,Dielectric);
+  Material *metal_right = new Material(Vec3(0.8,0.6,0.2), 0.0,Metal);
  
   
   /*将所有能够被撞击的物体信息保存在列表中*/
   //漫反射示例
-  std::vector<hitable *> list;
-  list.push_back(new sphere(Vec3(0.0, -100.5, -1.0), 100.0, diffuse_ground));//这里的Vec3是坐标
-  list.push_back(new sphere(Vec3(0.0, 0.0, -1.0), 0.5, diffuse_center));
+  // std::vector<hitable *> list;
+  // list.push_back(new sphere(Vec3(0.0, -100.5, -1.0), 100.0, diffuse_ground));//这里的Vec3是坐标
+  // list.push_back(new sphere(Vec3(0.0, 0.0, -1.0), 0.5, diffuse_center));
   //金属示例
   // std::vector<hitable *> list;
   // list.push_back(new sphere(Vec3(0.0, -100.5, -1.0), 100.0, diffuse_ground));//这里的Vec3是坐标
@@ -101,12 +101,12 @@ int main() {
   // list.push_back(new sphere(Vec3(-1.0,0.0,-1.0),0.5,metal_left));
   // list.push_back(new sphere(Vec3(1.0,0.0,-1.0),0.5,metal_right));
   //透明示例
-  // std::vector<hitable *> list;
-  // list.push_back(new sphere(Vec3(0.0, -100.5, -1.0), 100.0, diffuse_ground));//这里的Vec3是坐标
-  // list.push_back(new sphere(Vec3(0.0, 0.0, -1.0), 0.5, diffuse_center));
-  // list.push_back(new sphere(Vec3(1.0,0.0,-1.0),0.5,metal_right));
-  // list.push_back(new sphere(Vec3(-1.0,0.0,-1.0),0.5,dielectric_left));
-  // list.push_back(new sphere(Vec3(-1.0,0.0,-1.0),-0.4,dielectric_left));
+  std::vector<hitable *> list;
+  list.push_back(new sphere(Vec3(0.0, -100.5, -1.0), 100.0, diffuse_ground));//这里的Vec3是坐标
+  list.push_back(new sphere(Vec3(0.0, 0.0, -1.0), 0.5, diffuse_center));
+  list.push_back(new sphere(Vec3(1.0,0.0,-1.0),0.5,metal_right));
+  list.push_back(new sphere(Vec3(-1.0,0.0,-1.0),0.5,dielectric_left));
+  list.push_back(new sphere(Vec3(-1.0,0.0,-1.0),-0.4,dielectric_left));
 
   hitable *world = new hitable_list(list, list.size());
   // 添加计时
@@ -143,9 +143,9 @@ int main() {
   std::cout << "finished, used "<< time_used <<"s" << std::endl;
 
   //释放资源
-   delete diffuse_center, diffuse_ground;
+  //  delete diffuse_center, diffuse_ground;
     // delete diffuse_center, diffuse_ground,metal_left,metal_right;
-  // delete diffuse_center, diffuse_ground,metal_right,dielectric_left;
+  delete diffuse_center, diffuse_ground,metal_right,dielectric_left;
 
   return 0;
 }

@@ -1,9 +1,8 @@
 CMakeFiles/Rendering.dir/sphere.cpp.o: \
- /home/hushrush/桌面/Lab01copy/sphere.cpp /usr/include/stdc-predef.h \
- /home/hushrush/桌面/Lab01copy/sphere.h \
- /home/hushrush/桌面/Lab01copy/hitable.h \
- /home/hushrush/桌面/Lab01copy/ray.h \
- /home/hushrush/桌面/Lab01copy/vec3.h /usr/include/c++/9/iostream \
+ /home/hushrush/桌面/Lab01/sphere.cpp /usr/include/stdc-predef.h \
+ /home/hushrush/桌面/Lab01/sphere.h \
+ /home/hushrush/桌面/Lab01/hitable.h /home/hushrush/桌面/Lab01/ray.h \
+ /home/hushrush/桌面/Lab01/vec3.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -149,7 +148,7 @@ CMakeFiles/Rendering.dir/sphere.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/9/stdlib.h /home/hushrush/桌面/Lab01copy/material.h \
+ /usr/include/c++/9/stdlib.h /home/hushrush/桌面/Lab01/material.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h \
  /usr/include/c++/9/random /usr/include/c++/9/limits \
  /usr/include/c++/9/bits/random.h /usr/include/c++/9/vector \

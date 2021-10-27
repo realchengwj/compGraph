@@ -1,6 +1,6 @@
-CMakeFiles/Rendering.dir/main.cpp.o: \
- /home/hushrush/桌面/Lab01copy/main.cpp /usr/include/stdc-predef.h \
- /home/hushrush/桌面/Lab01copy/svpng.inc /usr/include/stdio.h \
+CMakeFiles/Rendering.dir/main.cpp.o: /home/hushrush/桌面/Lab01/main.cpp \
+ /usr/include/stdc-predef.h /home/hushrush/桌面/Lab01/svpng.inc \
+ /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -137,10 +137,9 @@ CMakeFiles/Rendering.dir/main.cpp.o: \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
- /home/hushrush/桌面/Lab01copy/material.h \
- /home/hushrush/桌面/Lab01copy/hitable.h \
- /home/hushrush/桌面/Lab01copy/ray.h \
- /home/hushrush/桌面/Lab01copy/vec3.h /usr/include/c++/9/math.h \
+ /home/hushrush/桌面/Lab01/material.h \
+ /home/hushrush/桌面/Lab01/hitable.h /home/hushrush/桌面/Lab01/ray.h \
+ /home/hushrush/桌面/Lab01/vec3.h /usr/include/c++/9/math.h \
  /usr/include/c++/9/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -163,7 +162,7 @@ CMakeFiles/Rendering.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/9/bits/opt_random.h \
  /usr/include/c++/9/bits/random.tcc /usr/include/c++/9/numeric \
  /usr/include/c++/9/bits/stl_numeric.h \
- /home/hushrush/桌面/Lab01copy/camera.h \
- /home/hushrush/桌面/Lab01copy/hitable_list.h \
- /home/hushrush/桌面/Lab01copy/sphere.h \
+ /home/hushrush/桌面/Lab01/camera.h \
+ /home/hushrush/桌面/Lab01/hitable_list.h \
+ /home/hushrush/桌面/Lab01/sphere.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/omp.h

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hushrush/桌面/Lab01copy
+CMAKE_SOURCE_DIR = /home/hushrush/桌面/Lab01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hushrush/桌面/Lab01copy/build
+CMAKE_BINARY_DIR = /home/hushrush/桌面/Lab01/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Rendering.dir/depend.make
@@ -72,100 +72,100 @@ include CMakeFiles/Rendering.dir/flags.make
 CMakeFiles/Rendering.dir/camera.cpp.o: CMakeFiles/Rendering.dir/flags.make
 CMakeFiles/Rendering.dir/camera.cpp.o: ../camera.cpp
 CMakeFiles/Rendering.dir/camera.cpp.o: CMakeFiles/Rendering.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Rendering.dir/camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/camera.cpp.o -MF CMakeFiles/Rendering.dir/camera.cpp.o.d -o CMakeFiles/Rendering.dir/camera.cpp.o -c /home/hushrush/桌面/Lab01copy/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Rendering.dir/camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/camera.cpp.o -MF CMakeFiles/Rendering.dir/camera.cpp.o.d -o CMakeFiles/Rendering.dir/camera.cpp.o -c /home/hushrush/桌面/Lab01/camera.cpp
 
 CMakeFiles/Rendering.dir/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rendering.dir/camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01copy/camera.cpp > CMakeFiles/Rendering.dir/camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01/camera.cpp > CMakeFiles/Rendering.dir/camera.cpp.i
 
 CMakeFiles/Rendering.dir/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rendering.dir/camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01copy/camera.cpp -o CMakeFiles/Rendering.dir/camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01/camera.cpp -o CMakeFiles/Rendering.dir/camera.cpp.s
 
 CMakeFiles/Rendering.dir/hitable_list.cpp.o: CMakeFiles/Rendering.dir/flags.make
 CMakeFiles/Rendering.dir/hitable_list.cpp.o: ../hitable_list.cpp
 CMakeFiles/Rendering.dir/hitable_list.cpp.o: CMakeFiles/Rendering.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rendering.dir/hitable_list.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/hitable_list.cpp.o -MF CMakeFiles/Rendering.dir/hitable_list.cpp.o.d -o CMakeFiles/Rendering.dir/hitable_list.cpp.o -c /home/hushrush/桌面/Lab01copy/hitable_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rendering.dir/hitable_list.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/hitable_list.cpp.o -MF CMakeFiles/Rendering.dir/hitable_list.cpp.o.d -o CMakeFiles/Rendering.dir/hitable_list.cpp.o -c /home/hushrush/桌面/Lab01/hitable_list.cpp
 
 CMakeFiles/Rendering.dir/hitable_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rendering.dir/hitable_list.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01copy/hitable_list.cpp > CMakeFiles/Rendering.dir/hitable_list.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01/hitable_list.cpp > CMakeFiles/Rendering.dir/hitable_list.cpp.i
 
 CMakeFiles/Rendering.dir/hitable_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rendering.dir/hitable_list.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01copy/hitable_list.cpp -o CMakeFiles/Rendering.dir/hitable_list.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01/hitable_list.cpp -o CMakeFiles/Rendering.dir/hitable_list.cpp.s
 
 CMakeFiles/Rendering.dir/main.cpp.o: CMakeFiles/Rendering.dir/flags.make
 CMakeFiles/Rendering.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Rendering.dir/main.cpp.o: CMakeFiles/Rendering.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rendering.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/main.cpp.o -MF CMakeFiles/Rendering.dir/main.cpp.o.d -o CMakeFiles/Rendering.dir/main.cpp.o -c /home/hushrush/桌面/Lab01copy/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rendering.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/main.cpp.o -MF CMakeFiles/Rendering.dir/main.cpp.o.d -o CMakeFiles/Rendering.dir/main.cpp.o -c /home/hushrush/桌面/Lab01/main.cpp
 
 CMakeFiles/Rendering.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rendering.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01copy/main.cpp > CMakeFiles/Rendering.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01/main.cpp > CMakeFiles/Rendering.dir/main.cpp.i
 
 CMakeFiles/Rendering.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rendering.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01copy/main.cpp -o CMakeFiles/Rendering.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01/main.cpp -o CMakeFiles/Rendering.dir/main.cpp.s
 
 CMakeFiles/Rendering.dir/material.cpp.o: CMakeFiles/Rendering.dir/flags.make
 CMakeFiles/Rendering.dir/material.cpp.o: ../material.cpp
 CMakeFiles/Rendering.dir/material.cpp.o: CMakeFiles/Rendering.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Rendering.dir/material.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/material.cpp.o -MF CMakeFiles/Rendering.dir/material.cpp.o.d -o CMakeFiles/Rendering.dir/material.cpp.o -c /home/hushrush/桌面/Lab01copy/material.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Rendering.dir/material.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/material.cpp.o -MF CMakeFiles/Rendering.dir/material.cpp.o.d -o CMakeFiles/Rendering.dir/material.cpp.o -c /home/hushrush/桌面/Lab01/material.cpp
 
 CMakeFiles/Rendering.dir/material.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rendering.dir/material.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01copy/material.cpp > CMakeFiles/Rendering.dir/material.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01/material.cpp > CMakeFiles/Rendering.dir/material.cpp.i
 
 CMakeFiles/Rendering.dir/material.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rendering.dir/material.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01copy/material.cpp -o CMakeFiles/Rendering.dir/material.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01/material.cpp -o CMakeFiles/Rendering.dir/material.cpp.s
 
 CMakeFiles/Rendering.dir/ray.cpp.o: CMakeFiles/Rendering.dir/flags.make
 CMakeFiles/Rendering.dir/ray.cpp.o: ../ray.cpp
 CMakeFiles/Rendering.dir/ray.cpp.o: CMakeFiles/Rendering.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Rendering.dir/ray.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/ray.cpp.o -MF CMakeFiles/Rendering.dir/ray.cpp.o.d -o CMakeFiles/Rendering.dir/ray.cpp.o -c /home/hushrush/桌面/Lab01copy/ray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Rendering.dir/ray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/ray.cpp.o -MF CMakeFiles/Rendering.dir/ray.cpp.o.d -o CMakeFiles/Rendering.dir/ray.cpp.o -c /home/hushrush/桌面/Lab01/ray.cpp
 
 CMakeFiles/Rendering.dir/ray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rendering.dir/ray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01copy/ray.cpp > CMakeFiles/Rendering.dir/ray.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01/ray.cpp > CMakeFiles/Rendering.dir/ray.cpp.i
 
 CMakeFiles/Rendering.dir/ray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rendering.dir/ray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01copy/ray.cpp -o CMakeFiles/Rendering.dir/ray.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01/ray.cpp -o CMakeFiles/Rendering.dir/ray.cpp.s
 
 CMakeFiles/Rendering.dir/sphere.cpp.o: CMakeFiles/Rendering.dir/flags.make
 CMakeFiles/Rendering.dir/sphere.cpp.o: ../sphere.cpp
 CMakeFiles/Rendering.dir/sphere.cpp.o: CMakeFiles/Rendering.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Rendering.dir/sphere.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/sphere.cpp.o -MF CMakeFiles/Rendering.dir/sphere.cpp.o.d -o CMakeFiles/Rendering.dir/sphere.cpp.o -c /home/hushrush/桌面/Lab01copy/sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Rendering.dir/sphere.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/sphere.cpp.o -MF CMakeFiles/Rendering.dir/sphere.cpp.o.d -o CMakeFiles/Rendering.dir/sphere.cpp.o -c /home/hushrush/桌面/Lab01/sphere.cpp
 
 CMakeFiles/Rendering.dir/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rendering.dir/sphere.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01copy/sphere.cpp > CMakeFiles/Rendering.dir/sphere.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01/sphere.cpp > CMakeFiles/Rendering.dir/sphere.cpp.i
 
 CMakeFiles/Rendering.dir/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rendering.dir/sphere.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01copy/sphere.cpp -o CMakeFiles/Rendering.dir/sphere.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01/sphere.cpp -o CMakeFiles/Rendering.dir/sphere.cpp.s
 
 CMakeFiles/Rendering.dir/vec3.cpp.o: CMakeFiles/Rendering.dir/flags.make
 CMakeFiles/Rendering.dir/vec3.cpp.o: ../vec3.cpp
 CMakeFiles/Rendering.dir/vec3.cpp.o: CMakeFiles/Rendering.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Rendering.dir/vec3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/vec3.cpp.o -MF CMakeFiles/Rendering.dir/vec3.cpp.o.d -o CMakeFiles/Rendering.dir/vec3.cpp.o -c /home/hushrush/桌面/Lab01copy/vec3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hushrush/桌面/Lab01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Rendering.dir/vec3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rendering.dir/vec3.cpp.o -MF CMakeFiles/Rendering.dir/vec3.cpp.o.d -o CMakeFiles/Rendering.dir/vec3.cpp.o -c /home/hushrush/桌面/Lab01/vec3.cpp
 
 CMakeFiles/Rendering.dir/vec3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rendering.dir/vec3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01copy/vec3.cpp > CMakeFiles/Rendering.dir/vec3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hushrush/桌面/Lab01/vec3.cpp > CMakeFiles/Rendering.dir/vec3.cpp.i
 
 CMakeFiles/Rendering.dir/vec3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rendering.dir/vec3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01copy/vec3.cpp -o CMakeFiles/Rendering.dir/vec3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hushrush/桌面/Lab01/vec3.cpp -o CMakeFiles/Rendering.dir/vec3.cpp.s
 
 # Object files for target Rendering
 Rendering_OBJECTS = \
@@ -191,7 +191,7 @@ Rendering: CMakeFiles/Rendering.dir/build.make
 Rendering: /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so
 Rendering: /usr/lib/x86_64-linux-gnu/libpthread.so
 Rendering: CMakeFiles/Rendering.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hushrush/桌面/Lab01copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Rendering"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hushrush/桌面/Lab01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Rendering"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rendering.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -203,6 +203,6 @@ CMakeFiles/Rendering.dir/clean:
 .PHONY : CMakeFiles/Rendering.dir/clean
 
 CMakeFiles/Rendering.dir/depend:
-	cd /home/hushrush/桌面/Lab01copy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hushrush/桌面/Lab01copy /home/hushrush/桌面/Lab01copy /home/hushrush/桌面/Lab01copy/build /home/hushrush/桌面/Lab01copy/build /home/hushrush/桌面/Lab01copy/build/CMakeFiles/Rendering.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hushrush/桌面/Lab01/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hushrush/桌面/Lab01 /home/hushrush/桌面/Lab01 /home/hushrush/桌面/Lab01/build /home/hushrush/桌面/Lab01/build /home/hushrush/桌面/Lab01/build/CMakeFiles/Rendering.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Rendering.dir/depend
 
